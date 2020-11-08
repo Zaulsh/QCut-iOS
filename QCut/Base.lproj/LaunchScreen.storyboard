@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dE7-qe-e4l">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                <color key="backgroundColor" name="colorMainStatus"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="hpn-aw-wAF"/>
+                                </constraints>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_logo-1" translatesAutoresizingMaskIntoConstraints="NO" id="wVA-Fu-Tfx">
+                                <rect key="frame" x="40" y="286" width="334" height="334"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="wVA-Fu-Tfx" secondAttribute="height" multiplier="1:1" id="lhI-I1-WyU"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.89870870113372803" blue="0.091150619089603424" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wVA-Fu-Tfx" secondAttribute="trailing" constant="40" id="1Of-A6-4s1"/>
+                            <constraint firstItem="dE7-qe-e4l" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="2H4-Cv-gB9"/>
+                            <constraint firstItem="wVA-Fu-Tfx" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="4Uo-bL-mwG"/>
+                            <constraint firstItem="wVA-Fu-Tfx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="L9O-fj-XAv"/>
+                            <constraint firstItem="dE7-qe-e4l" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="ZWL-55-PAA"/>
+                            <constraint firstItem="wVA-Fu-Tfx" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="l76-ti-nnv"/>
+                            <constraint firstItem="dE7-qe-e4l" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="qOe-Bd-OEd"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ic_logo-1" width="90" height="86"/>
+        <namedColor name="colorMainStatus">
+            <color red="0.035294117647058823" green="0.22745098039215686" blue="0.058823529411764705" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
